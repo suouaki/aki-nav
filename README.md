@@ -1,13 +1,14 @@
 # aki-nav
 **无需服务器搭建个人导航web**
 
-## 搭建步骤
+## 搭建步骤(worker/pages)
 - 登录[cluodflare](https://dash.cloudflare.com/)
 - 点击`Compute (Workers)`
 - Create创建
 - 选择**Start with Hello World!**
 - 名称随意
 - 编辑代码：将项目代码粘贴部署即可
+
 
 ---
 
@@ -23,7 +24,7 @@ admin_username
 ```
 
 ```
-admin_username
+admin_password
 ```
 
 ### 创建 D1 
@@ -104,7 +105,7 @@ D1 数据库: 选择你创建的 d1
 NAV_AUTH
 ```
 KV 命名空间: 选择你创建的 kv
-`v1.01.06需要额外绑定kv 变量名称:
+v1.01.06需要额外绑定kv 变量名称:
 ```
 NAV_SETTINGS
 ```
